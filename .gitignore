@@ -1,0 +1,42 @@
+# Python environments and local runtimes
+.venv/
+venv/
+env/
+.env/
+.runtime/
+
+# Python bytecode, tooling, and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Packaging output
+build/
+dist/
+*.egg-info/
+
+# Local configuration and editor state
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated model outputs, run logs, and temporary build staging
+artifacts/
+work/
+*.log
+
+# Downloaded/derived datasets (keep the acquisition instructions tracked)
+data/*
+!data/README.md
